@@ -1,12 +1,12 @@
-monstroa = input("Qual o nome da primeira criatura?")
-vidaa = input("Quanta vida tem o " + monstroa)
-xpa = input("Qual o nivel do " + monstroa)
-monstrob = input("Qual o nome da segunda criatura?")
-vidab = input("Quanta vida tem o " + monstrob)
-xpb = input("Qual o nivel do " + monstrob)
-monstroc = input("Qual o nome da terceira criatura?")
-vidac = input("Quanda vida tem o " + monstroc)
-xpc = input("Qual o nivel do " + monstroc)
+monstroa = input()
+vidaa = input()
+xpa = int(input())
+monstrob = input()
+vidab = input()
+xpb = int(input())
+monstroc = input()
+vidac = input()
+xpc = int(input())
 
 array1 = [[monstroa, (vidaa , xpa)],
         [ monstrob, (vidab , xpb)],
@@ -40,4 +40,5 @@ elif xpa > xpb and xpa < xpc and xpb < xpc:
     print(monstroc)
     print(monstroa)
     print(monstrob)
-
+else:
+    pass
